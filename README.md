@@ -113,4 +113,4 @@ Cody Lewis Zites, Zites Designs
 
 ## Acknowledgments
 
-Thank you Frontend Mentor for providing beginner-friendly web design projects.
+Thank you Frontend Mentor for providing beginner-friendly web design projects. THIS VERSION ONLY INCLUDES THE MOBILE OPTIMIZED VERSION.

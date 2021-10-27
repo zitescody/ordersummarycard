@@ -103,7 +103,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 - [Google Fonts](fonts.google.com) - Font assets
 - [CSS Tricks](css-tricks.com) - Assist with SVG optimization
-- [Mozilla] (developer.mozilla.org) - CSS tutorials
+- [Mozilla](developer.mozilla.org) - CSS tutorials
 
 
 ## Author

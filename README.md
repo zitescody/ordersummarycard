@@ -49,12 +49,12 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ## My process
 
-1.) Determine timeframe (2 weeks)
-2.) Planning phase (Day 1)
-3.) Wireframing / CSS Class Declarations (Day 2 - 3)
-4.) Mobile Interface Development (Days 4 - 8)
-5.) Web Interface Development (Days 9 - 12)
-6.) Debugging/Submission (Days 12 - 14)
+1.) Determine timeframe (1 week)
+2.) Planning phase/Mobile Interface Wireframe (Day 1)
+3.) Mobile Development/Debug (Day 2 - 3)
+4.) Web Interface Wireframe (Days 4 - 5)
+5.) Web Interface Development/Debug (Day 6)
+6.) Final Debugging/Submission (Day 7)
 
 ### Built with
 

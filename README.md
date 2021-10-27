@@ -66,21 +66,32 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I learned the uses of declaring variables up front; such as color palettes. This significantly improved my workflow. I also learned how to control the look and feel of interactions like button hovers and clicking on links using the hover
 
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+/* Color Palette Declaration */
+:root {
+    /* Primary Colors */
+    --paleblue: hsl(225, 100%, 94%);
+    --brightblue: hsl(245, 75%, 52%);
+
+    /* Neutral Colors */
+    --verypaleblue: hsl(225, 100%, 98%);
+    --desaturatedblue: hsl(224, 23%, 55%);
+    --darkblue: hsl(223, 47%, 23%);
 }
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
+
+/* Button Design */
+button.payment-button {
+    background-color: var(--brightblue);
+    border-radius: 10px;
+    border-style: none;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 15px 15px;
+    width: 100%;
+    color: white;
+    box-shadow: 0px 10px 10px 0px rgba(68, 102, 187, 0.35);
 }
 ```
 
@@ -90,14 +101,16 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Google Fonts](fonts.google.com) - Font assets
+- [CSS Tricks](css-tricks.com) - Assist with SVG optimization
+- [Mozilla] (developer.mozilla.org) - CSS tutorials
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+Cody Lewis Zites, Zites Designs
 - Frontend Mentor - [@zitescody](https://www.frontendmentor.io/profile/zitescody)
 
 ## Acknowledgments
+
+Thank you Frontend Mentor for providing beginner-friendly web design projects.

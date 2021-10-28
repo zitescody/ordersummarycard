@@ -1,0 +1,147 @@
+/* Universal Styles */
+@import 'https://fonts.googleapis.com/css2?family=Red+Hat+Display';
+
+:root {
+    /* Primary Colors */
+    --paleblue: hsl(225, 100%, 94%);
+    --brightblue: hsl(245, 75%, 52%);
+
+    /* Neutral Colors */
+    --verypaleblue: hsl(225, 100%, 98%);
+    --desaturatedblue: hsl(224, 23%, 55%);
+    --darkblue: hsl(223, 47%, 23%);
+}
+
+body {
+    font-family: 'Red Hat Display';
+    background-color: var(--paleblue);
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 24px;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 12px;
+}
+
+p {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+a {
+    font-weight: 500;
+    font-size: 12px;
+}
+
+/* Content Styles */
+
+div.container {
+    max-width: 375px;
+    border-radius: 20px;
+    margin: 0 auto;
+    background-color: white;
+    overflow: hidden;
+    box-shadow: 0px 20px 20px 0px var(--desaturatedblue);
+}
+
+img.head-image {
+    z-index: -100;
+}
+
+h1.title, p.tag {
+    text-align: center;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+p.tag {
+    opacity: 0.5;
+}
+
+div.plan {
+   background-color: var(--verypaleblue);
+   display: flex;
+   flex-direction: row;
+   text-align: center;
+   border-radius: 15px;
+   margin-right: 5%;
+   margin-left: 5%;
+}
+.plan-item {
+    margin: 5%;
+}
+
+img.plan-item {
+    width: 25%;
+    height: 75%;
+}
+
+h2.plan-content {
+    font-weight: 900;
+}
+p.plan-content {
+    font-size: 14px;
+}
+
+div.payment-container {
+    margin: 5%;
+}
+
+a.plan-item {
+    padding-top: 10%;
+    font-weight: 900;
+    font-size: 14px;
+    color: var(--brightblue);
+}
+
+a.plan-item:hover {
+    text-decoration: none;
+    opacity: 0.9;
+}
+
+button.payment-button {
+    background-color: var(--brightblue);
+    border-radius: 10px;
+    border-style: none;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 15px 15px;
+    width: 100%;
+    color: white;
+    box-shadow: 0px 10px 10px 0px rgba(68, 102, 187, 0.35);
+}
+
+button.payment-button:hover {
+    opacity: 0.8;
+}
+
+div.cancel-container {
+    margin: 5%;
+    text-align: center;
+}
+
+a.cancel {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    color: var(--darkblue);
+    opacity: 0.7;
+}
+
+a.cancel:hover {
+    font-weight: 900;
+    opacity: 1;
+}
+
+/* Attribution Styles */
+.attribution { font-size: 11px; text-align: center; margin-top: 2%;}
+.attribution a { color: hsl(228, 45%, 44%); }

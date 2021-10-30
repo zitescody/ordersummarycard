@@ -44,7 +44,7 @@ a {
 
 /* Content Styles */
 
-div.container {
+main.container {
     max-width: 375px;
     border-radius: 20px;
     margin: 0 auto;
